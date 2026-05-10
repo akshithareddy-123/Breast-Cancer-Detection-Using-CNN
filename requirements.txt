@@ -1,0 +1,5 @@
+Python
+Tensorflow 
+Keras
+Flask
+CNN(Convolutional Neural Networks)
