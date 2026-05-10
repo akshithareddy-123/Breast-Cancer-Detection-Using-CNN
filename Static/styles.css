@@ -1,0 +1,62 @@
+/* static/css/styles.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    background-image: url("../cancerimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.banner {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #e91e63;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+p {
+    font-size: 1.2em;
+    color: #f0f0f0;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+}
+
+.upload-btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+.upload-btn:hover {
+    background-color: #c2185b;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #ddd;
+    text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
